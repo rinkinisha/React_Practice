@@ -6,7 +6,7 @@ function Profile(){
     const changeName =()=>{
         setUser({
             ...user,
-            name:"Rinki"
+            name : "Neha"
         })
     }
     return(
@@ -14,9 +14,9 @@ function Profile(){
 
         <h1>profile</h1>
         <p>Name{user.name}</p>
-        <p>Age{use.age}</p>
+        <p>Age{user.age}</p>
         <p>Role{user.role}</p>
-        <button onclick={changeName}> Change name</button>
+        <button onClick={changeName}> Change name</button>
         </>
     )
 }
