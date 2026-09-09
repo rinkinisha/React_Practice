@@ -1,4 +1,5 @@
 import Counter from "./components/Counter"
+import Todo from "./components/Todo"
 
 function App(){
   
@@ -7,6 +8,7 @@ function App(){
   
 <Counter
 />
+<Todo/>
     </>
   )
 }
